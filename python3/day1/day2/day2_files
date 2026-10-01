@@ -1,1 +1,77 @@
+1. Python List
+A list is used when we want to store multiple values inside one variable.
+2. List Index
+Every item inside a list has a position called an index.
+3. Negative Index
+Python also allows us to access items from the end.
+4. Find Number of Items – len() count of files
+5. Adding Data to List – append() means add extra files
+6. Removing Data – remove()
+We can remove an item using remove().
+7. Change a Value in a List, Lists are mutable.
+Mutable simply means:
+We can change the data after creating the list.
+8. List Slicing
+Sometimes we don't need the complete list. We need only some values.
+0:2 means:
+Start from index 0
+Stop before index 2
+So index 0 and 1 are returned.
+9. Loop Through a List
+for file in files:
+means:
+Take one item at a time from files and temporarily store it in file.
+10. AWS Data Engineering Example with List
+Imagine files are coming into an S3 bucket.
+s3_files = [    "customers.csv",    "orders.csv",    "products.csv"]for file in s3_files:    
+print("Processing file:", file)
+11. Tuple
+A tuple is also used to store multiple values.
+List uses:
+[]
+Tuple uses:
+()
+Main difference:
+List  → Can be changed
+Tuple → Cannot normally be changed after creation
+12. Set
+A set stores unique values.
+13. Dictionary
+Key        Value
+
+id         101
+name       Arun
+city       Chennai
+means:
+id       → Key
+101      → Value
+14. Access Dictionary Values
+We can access data using the key.
+15. Add a New Key and Value suppose we want to add another key and value means we can add.
+16. Change Dictionary Value, So dictionaries are also mutable.
+17. AWS S3 Example Using Dictionary
+Imagine we want to store information about an S3 file.
+s3_file = {    "bucket_name": "company-raw-data",    "file_name": "customers.csv",    "record_count": 1000,    "status": "SUCCESS"}
+print(s3_file["bucket_name"])
+print(s3_file["file_name"])
+print(s3_file["record_count"])
+print(s3_file["status"])
+Output
+company-raw-data
+customers.csv
+1000
+SUCCESS
+Here:
+Variable:
+s3_file
+Keys:
+bucket_name
+file_name
+record_count
+status
+Values:
+company-raw-data
+customers.csv
+1000
+SUCCESS
 
