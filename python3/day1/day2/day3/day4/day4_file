@@ -1,1 +1,22 @@
+for loop
+    ↓
+Loop through list
+    ↓
+range()
+    ↓
+Loop + if condition
+    ↓
+Loop through dictionary
+    ↓
+List of dictionaries
+    ↓
+while loop
+    ↓
+break
+    ↓
+continue
+    ↓
+Nested loops
+    ↓
+AWS/Data Engineering file-processing scenarios
 
