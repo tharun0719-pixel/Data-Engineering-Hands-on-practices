@@ -1,1 +1,46 @@
+1. What Is a Function?
+A function is a reusable block of code that performs a particular task.
+For example, suppose every day we need to display:
+print("Starting Data Pipeline")
+print("Reading source data")
+print("Processing data")
+print("Pipeline completed")
+
+2. Why Do We Use Functions?
+Functions help us:
+Avoid duplicate code
+        ↓
+Reuse the same logic
+        ↓
+Make code easier to understand
+        ↓
+Make code easier to maintain
+        ↓
+Break a large pipeline into smaller tasks
+In Data Engineering, we can create separate functions for:
+Read data
+
+Validate data
+
+Transform data
+
+Load data
+
+Check file status
+
+Check record count
+
+Process S3 files
+For example:
+S3 File
+   ↓
+read_file()
+   ↓
+validate_file()
+   ↓
+transform_data()
+   ↓
+load_data()
+Each function performs one specific job.
+________________________________________
 
