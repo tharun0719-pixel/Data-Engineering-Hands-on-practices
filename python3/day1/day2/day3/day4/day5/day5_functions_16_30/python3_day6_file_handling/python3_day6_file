@@ -1,1 +1,14 @@
+. Why is File Handling important?
+A simple Data Engineering flow looks like this:
+Source CSV File
+       ↓
+Python reads the file
+       ↓
+Validate records
+       ↓
+Transform data
+       ↓
+Write processed file
+       ↓
+Upload to S3
 
