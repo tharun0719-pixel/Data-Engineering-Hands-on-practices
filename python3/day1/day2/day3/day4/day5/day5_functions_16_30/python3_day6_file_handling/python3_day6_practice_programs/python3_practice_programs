@@ -1,1 +1,9 @@
+1.	Create employees.txt and write five employee names.
+2.	Read the file line by line and display each employee.
+3.	Append two more employees without deleting the original names.
+4.	Create a CSV with employee_id, name, and salary.
+5.	Read the CSV and print employees earning more than 50,000.
+6.	Create a function to count CSV records.
+7.	Handle a missing source file using try-except.
+
 
